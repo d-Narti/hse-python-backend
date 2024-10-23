@@ -1,7 +1,7 @@
 from typing import Iterable
 from fastapi import HTTPException
 from http import HTTPStatus
-from .models import(
+from shop_api.models import(
     ItemInfo,
     ItemEntity,
     ItemCartInfo,

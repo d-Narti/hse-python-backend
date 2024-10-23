@@ -1,10 +1,10 @@
 from http import HTTPStatus
 from typing import Annotated
-from lecture_2.hw.shop_api import queries
+from shop_api import queries
 
 from fastapi import APIRouter, HTTPException, Query, Response
 from pydantic import NonNegativeInt, PositiveInt, NonNegativeFloat, PositiveFloat
-from .contracts import(
+from shop_api.contracts import(
     ItemResponse,
     ItemRequest,
     PatchItemRequest,
