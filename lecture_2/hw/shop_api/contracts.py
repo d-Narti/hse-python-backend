@@ -1,7 +1,7 @@
 from __future__ import annotations
 from pydantic import BaseModel, NonNegativeFloat, ConfigDict
 from typing import List
-from .models import(
+from shop_api.models import(
     ItemEntity,
     ItemInfo,
     ItemCartInfo,
